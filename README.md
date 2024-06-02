@@ -1,5 +1,6 @@
 https://spurslicer.github.io/Chinese-Language-Notes-Website/
 # Directory Structure
+```
 .
 ├── conf/
 │   └── nav_conf.json
@@ -9,6 +10,7 @@ https://spurslicer.github.io/Chinese-Language-Notes-Website/
 ├── index.html
 ├── script.js
 └── style.css
+```
 
 ### ./conf/nav_conf.json
 This json generates the nav bar structures! Here is an overview of how it works:
