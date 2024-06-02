@@ -1,4 +1,6 @@
 https://spurslicer.github.io/Chinese-Language-Notes-Website/
+# What is this?
+This is a statically generated website used for recording Chinese notes in an efficient and informative manner! You will only have to use json if you want to add in more characters or categories, so it *should* be a bit speedier than coding the HTML yourself for everything! Most importantly, stroke order gifs and radical composition links will be generated for every character you enter! The gifs will be viewable upon hovering over the hyperlinked characters and clicking on the hyperlinks takes you to the radical composition website!
 # Directory Structure
 ```
 .
