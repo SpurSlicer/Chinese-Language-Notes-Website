@@ -1,5 +1,4 @@
-<a href="https://spurslicer.github.io/Chinese-Language-Notes-Website/
-" target="_blank">https://spurslicer.github.io/Chinese-Language-Notes-Website/</a>
+https://spurslicer.github.io/Chinese-Language-Notes-Website/
 # Directory Structure
 ```
 .
