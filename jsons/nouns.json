@@ -1,0 +1,19 @@
+[
+    {
+        "head": "Pets",
+        "character": "猫",
+        "pinyin": "māo",
+        "english": "cat",
+        "grammar": "noun",
+        "example_zh": "我爱我的猫。",
+        "example_en": "I love my cat."
+    },
+    {
+        "character": "狗",
+        "pinyin": "gǒu",
+        "english": "dog",
+        "grammar": "noun",
+        "example_zh": "我爱我的狗。",
+        "example_en": "I love my dog."
+    }
+]

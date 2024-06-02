@@ -1,0 +1,201 @@
+/*----------------------------------------*/
+/*------------------Vars------------------*/
+/*----------------------------------------*/
+:root {
+    --background: rgb(118, 0, 118);
+    --foreground: rgb(162, 0, 162);
+    --foreground-hover: rgb(230, 51, 230);
+    --hyperlink: rgb(255, 115, 255);
+    --hyperlink-hover: rgb(255, 200, 255);
+    --table-even: rgb(129, 1, 129);
+    --table-odd: rgb(145, 0, 145);
+    --rainbow: linear-gradient(to bottom right,
+    red 0%,
+    orange 20%,
+    yellow 40%,
+    lightgreen 60%,
+    blue 80%,
+    purple 100%);
+    --rainbow-alt: linear-gradient(to right,
+    red 0%,
+    orange 20%,
+    yellow 40%,
+    lightgreen 60%,
+    blue 80%,
+    purple 100%);
+}
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*------------------HTML------------------*/
+/*----------------------------------------*/
+html {
+    background-color: var(--background);
+}
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*-----------------Header-----------------*/
+/*----------------------------------------*/
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: calc(22vw + 40px);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: white;
+    background-color: var(--foreground);
+}
+#title button {
+    justify-content: center;
+    background-color: transparent;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: inherit;
+    font: inherit;
+    font-size: 50px;
+}
+#title .search {
+    font: inherit;
+    right: 0px;
+    height: 25px;
+    width: 22vw;
+    padding-left: 5px;
+    border-radius:30px;
+    color: var(--background);
+    border-color: var(--foreground-hover);
+    background-color: var(--hyperlink-hover);
+}
+.stroke_order_image { 
+    display: none;
+    background-color: var(--foreground);
+    position: fixed;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-radius: 2px;
+    border-image: var(--rainbow);
+    border-image-slice: 1;
+}
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*------------Navbar Structure------------*/
+/*----------------------------------------*/
+.navbar {
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--foreground);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*border-bottom-style: solid;*/
+    border-top-style: solid;
+    border-color: white;
+    border-image: var(--rainbow-alt);
+    border-image-slice: 1;
+}
+.navbarrow {
+    padding: 0px;
+    margin: 0px;
+    width: auto; 
+}
+.navitem {
+    background-color: var(--foreground);
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*-------------Navbar entries-------------*/
+/*----------------------------------------*/
+.navbutton {
+    background-color: var(--foreground);
+    color:white;
+    font: inherit;
+    padding:16px;
+    font-size:16px;
+    border:none;
+}
+.navdropdownmenu {
+    display: none;
+    position: absolute;
+    background-color: var(--foreground);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.navdropdownmenu button {
+    text-align: left;
+    margin: 0;
+    background-color: inherit;
+    font: inherit;
+    width: 100%;
+    border-style: none;
+    color:white;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+}
+.navdropdownmenu button:hover {
+    background-color: var(--foreground-hover);
+}
+.navitem:hover .navdropdownmenu {
+    display: block;
+}
+.navitem:hover .navbutton {
+    background-color: var(--foreground-hover);
+}
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*-----------------Tables-----------------*/
+/*----------------------------------------*/
+.tables {
+    text-align: center;
+    color: white;
+    display:none;
+}
+table {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table th {
+    padding: 10px 5px 10px 5px;
+    background-color: var(--foreground);
+    /*background-image: var(--rainbow);*/
+}
+table tr td { padding: 0px; margin: 0px; }
+table tr td a { color: var(--foreground-hover)}
+table tr td a:hover { color: var(--hyperlink-hover)}
+table tr:nth-child(even) { background-color: var(--table-even); }
+table tr:nth-child(odd) { background-color: var(--table-odd); }
+table tr td img { display: none; }
+table tr td a:hover + img {
+    display:block;
+}
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*---------------Main Page----------------*/
+/*----------------------------------------*/
+.mainpage {
+    text-align: center;
+    color: white;
+}
+/*----------------------------------------*/

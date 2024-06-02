@@ -1,0 +1,58 @@
+[
+    [
+        {
+            "cell_name": "Nouns",
+            "cell_dropdown_names": ["Nouns", "Pronouns"]
+        },
+        {
+            "cell_name": "Descriptors",
+            "cell_dropdown_names": ["Adjectives", "Intensifiers", "Time Phrases", "Location Phrases", "Position Phrases"]
+        },
+        {
+            "cell_name": "Verbs",
+            "cell_dropdown_names": ["Action Verbs", "Passive Verbs"]
+        },
+        {
+            "cell_name": "Conjunctions",
+            "cell_dropdown_names": ["Suboordinating", "Coordinating"]
+        },
+        {
+            "cell_name": "Interjections",
+            "cell_dropdown_names": ["Interjections"]
+        },
+        {
+            "cell_name": "Question Words",
+            "cell_dropdown_names": ["Question Words"]
+        },
+        {
+            "cell_name": "Quantities",
+            "cell_dropdown_names": ["Numbers", "Quantifiers"]
+        },
+        {
+            "cell_name": "Particals",
+            "cell_dropdown_names": ["Particals"]
+        },
+        {
+            "cell_name": "Expressions",
+            "cell_dropdown_names": ["Common Expressions"]
+        }
+    ],
+    [
+        {
+            "cell_name": "Sentence Structure",
+            "cell_dropdown_names": ["Sentence Structures"]
+        },
+        {
+            "cell_name": "了",
+            "cell_dropdown_names": ["了 Placement"]
+        },
+        {
+            "cell_name": "Attribution",
+            "cell_dropdown_names": ["的 Usage", "Intensifier Usage"]
+        },
+        {
+            "cell_name": "Phrase Placement",
+            "cell_dropdown_names": ["Phrase Placement"]
+        }
+    ]
+]

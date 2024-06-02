@@ -1,0 +1,116 @@
+[
+    {
+        "head": "Pronouns",
+        "character": "我",
+        "pinyin": "wǒ",
+        "english": "I/Me",
+        "grammar": "Pronoun",
+        "example_zh": "我叫国强。",
+        "example_en": "I am called Guo Qiang."
+    },
+    {
+        "character": "我们",
+        "pinyin": "wǒmen",
+        "english": "We",
+        "grammar": "Pronoun",
+        "example_zh": "我们今天有中文课。",
+        "example_en": "We have Chinese class today."
+    },
+    {
+        "character": "你",
+        "pinyin": "nǐ",
+        "english": "You",
+        "grammar": "Pronoun",
+        "example_zh": "你喜欢西瓜马？",
+        "example_en": "Do you like watermelon?"
+    },
+    {
+        "character": "你们",
+        "pinyin": "nǐmen",
+        "english": "You all",
+        "grammar": "Pronoun",
+        "example_zh": "谢谢你们！",
+        "example_en": "Thank you all!"
+    },
+    {
+        "character": "他",
+        "pinyin": "tā",
+        "english": "He/Him",
+        "grammar": "Pronoun",
+        "example_zh": "他很高兴。",
+        "example_en": "He is happy."
+    },
+    {
+        "character": "她",
+        "pinyin": "tā",
+        "english": "She/Her",
+        "grammar": "Pronoun",
+        "example_zh": "她很高兴。",
+        "example_en": "She is happy."
+    },
+    {
+        "character": "他们/她们",
+        "pinyin": "tāmen",
+        "english": "They/Them",
+        "grammar": "Pronoun",
+        "example_zh": "他们/她们有三个三明治。",
+        "example_en": "They have three sandwiches."
+    },
+    {
+        "head": "Possessive Pronouns",
+        "character": "我的",
+        "pinyin": "wǒ de",
+        "english": "My/Mine",
+        "grammar": "Pronoun",
+        "example_zh": "我叫国强。",
+        "example_en": "I am called Guo Qiang."
+    },
+    {
+        "character": "我们的",
+        "pinyin": "wǒmen de",
+        "english": "Our/Ours",
+        "grammar": "Pronoun",
+        "example_zh": "我们今天有中文课。",
+        "example_en": "We have Chinese class today."
+    },
+    {
+        "character": "你的",
+        "pinyin": "nǐ de",
+        "english": "Your",
+        "grammar": "Pronoun",
+        "example_zh": "你喜欢西瓜马？",
+        "example_en": "Do you like watermelon?"
+    },
+    {
+        "character": "你们的",
+        "pinyin": "nǐme de",
+        "english": "Yours",
+        "grammar": "Pronoun",
+        "example_zh": "谢谢你们！",
+        "example_en": "Thank you all!"
+    },
+    {
+        "character": "他的",
+        "pinyin": "tā de",
+        "english": "His",
+        "grammar": "Pronoun",
+        "example_zh": "他很高兴。",
+        "example_en": "He is happy."
+    },
+    {
+        "character": "她的",
+        "pinyin": "tā de",
+        "english": "Hers",
+        "grammar": "Pronoun",
+        "example_zh": "她很高兴。",
+        "example_en": "She is happy."
+    },
+    {
+        "character": "他们的/她们的",
+        "pinyin": "tāmen de",
+        "english": "Their/Theirs",
+        "grammar": "Pronoun",
+        "example_zh": "他们/她们有三个三明治。",
+        "example_en": "They have three sandwiches."
+    }
+]
