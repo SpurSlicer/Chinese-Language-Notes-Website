@@ -1,4 +1,5 @@
-https://spurslicer.github.io/Chinese-Language-Notes-Website/
+<a href="https://spurslicer.github.io/Chinese-Language-Notes-Website/
+" target="_blank">https://spurslicer.github.io/Chinese-Language-Notes-Website/</a>
 # Directory Structure
 ```
 .
@@ -12,7 +13,7 @@ https://spurslicer.github.io/Chinese-Language-Notes-Website/
 └── style.css
 ```
 
-### ./conf/nav_conf.json
+# ./conf/nav_conf.json
 This json generates the nav bar structures! Here is an overview of how it works:
 ```json
 [ /* Array of rows in the navbar*/
@@ -43,7 +44,7 @@ You can have as many rows with as many cells (they will wrap eventually) and as 
 **IMPORTANT:** json names in `./jsons/` are *automatically generated* via the dropdown menu option names. These names substitute spaces with underscores and make the entire string lowercase like so:
 - *Example Dropdown Name* becomes *example_dropdown_name*
 - *TeSt   Nam3* becomes *test___nam3*
-### ./jsons/**
+# ./jsons/**
 There is one json for every dropdown menu option. NOTE: you MUST have the json name match the drop down name in the format listed above! It is rather simple to do so and I will provide another example on what this must look like after this explanation. Here is what an example json looks like (definitions of each item are below):
 ```json
 [ /* Array of definitions */
@@ -75,27 +76,27 @@ There is one json for every dropdown menu option. NOTE: you MUST have the json n
     
 ]
 ```
-**head [OPTIONAL]**: Displays a header that separates tables for organization.
-**character**: The Chinese character(s).
-**pinyin**: The pinyin of the character(s).
-**english**: The English meaning of the character/phrase.
-**grammar**: The grammar use case.
-**example_zh**: An example in Chinese.
-**example_en**: The same example in english.
-**radical_composition [GENERATED]**: Click on the hyperlinked Chinese characters to view the radical composition (NOTE: the website generates this for you).
-**stroke_order [GENERATED]**: Hover over the hyperlinked Chinese characters to view a popup gif of the stroke order (NOTE: the website also generates this for you).
+- **head [OPTIONAL]**: Displays a header that separates tables for organization.
+- **character**: The Chinese character(s).
+- **pinyin**: The pinyin of the character(s).
+- **english**: The English meaning of the character/phrase.
+- **grammar**: The grammar use case.
+- **example_zh**: An example in Chinese.
+- **example_en**: The same example in english.
+- **radical_composition [GENERATED]**: Click on the hyperlinked Chinese characters to view the radical composition (NOTE: the website generates this for you).
+- **stroke_order [GENERATED]**: Hover over the hyperlinked Chinese characters to view a popup gif of the stroke order (NOTE: the website also generates this for you).
 
 __SUMMARY__: Please use a / to separate synonyms (failing to do so will mess up the radical and stroke order generation) and make sure you have the correct filename mapping. Speaking of that...
 
-## Adding New Categories (Navbar)
+# Adding New Categories (Navbar)
 To do this, all you have to do is make modifications to `./conf/nav_conf.json` as show above and the website will automatically update the navbar for you!
-## Adding New Characters
+# Adding New Characters
 All you have to do is add in more json entries like the ones above (remember to separate the curly braces with brackets like you would in an array)!
-### ./jsons/** Filenames (Again...)
+# ./jsons/** Filenames (Again...)
 To make your jsons recognizable to the website, make sure they they have the same name as the `cell_dropdown_names` entry BUT with spaces replaced with underscores and no capital letters. Here is an overview of the mapping again:
 - *Example Dropdown Name* becomes *example_dropdown_name*
 - *TeSt   Nam3* becomes *test___nam3*
-## ✨Customization✨
+# ✨Customization✨
 This website's color scheme is easily customizable! In `style.css`, there are color variables that can be set to whatever you'd like:
 ```css
 :root {
@@ -124,8 +125,8 @@ If you want to change the browser title of the website, then you can by changing
 If you want to change the displayed title of the website, the you can also change this by changing the text in *line 12* of `index.html`.
 
 Happy customizing!
-## Final Thoughts
+# Final Thoughts
 The GitHub Pages version of this website will be updated periodically by me. Feel free to download and host a local copy for your own use! I will attempt to push updates when I'm able to. Please let me know if any earth-shattering bugs appear in this!
-## Generators Used
-Radicals: https://www.dong-chinese.com/wiki/
-Stroke Order: https://www.strokeorder.com/
+# Generators Used
+- Radicals: https://www.dong-chinese.com/wiki/
+- Stroke Order: https://www.strokeorder.com/
